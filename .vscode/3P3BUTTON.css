@@ -1,0 +1,37 @@
+.paragrafo{
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 100;
+    display: block;
+}
+
+.divP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divButton{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.button1{
+    margin-left: 12vw;
+}
+
+.button3{
+    margin-right: 12vw;
+}
+.button{
+    width: 16vw;
+    height: 6vh;
+    font-size: 30px;
+    background-color: #707070;
+    color:ghostwhite;
+    box-shadow: rgba(255, 255, 255s, 0.18) 0px 2px 4px;
+
+}
