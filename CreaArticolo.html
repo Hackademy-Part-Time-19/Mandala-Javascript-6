@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea Articolo</title>
+    <link rel="stylesheet" href="./CreaArticolo.css">
+</head>
+
+<body>
+
+    <div class="divh1">
+        <h1>Crea articolo</h1>
+    </div>
+
+    <form class="FormArticolo">
+
+        <div class="divtitolo">
+            <label for="Titolo">Titolo:</label>
+            <input type="text" id="Titolo" placeholder="Titolo" value="CIAO" class="Titolo" required>
+        </div>
+
+        <div class="divparagrafo">
+            <label for="Paragrafo">Paragrafo:</label>
+            <textarea name="Paragrafo" id="Paragrafo" placeholder="Paragrafo" cols="30" rows="10" class="Paragrafo"
+                required></textarea>
+        </div>
+
+        <button id="Bottone" class="Bottone">Stampa Articolo</button>
+
+    </form>
+
+    <div id="ArticoloStampato">
+
+    </div>
+
+    <script src="./CreaArticolo.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    margin: 0px;
+}
+
+.divh1{
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(160, 160, 160);
+
+}
+
+.divtitolo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+    background-color: rgb(200, 200, 200);
+}
+
+.divparagrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+    background-color: rgb(200, 200, 200);
+}
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(200, 200, 200);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    background-color: rgb(160, 160, 160)
+}
+
+.FormArticolo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+}
+
+.Titolo{
+    width: 30vw;
+    height: 5vh;
+    font-size: 3vh;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 10px;
+}
+
+.Paragrafo{
+    width: 50vw;
+    height: 20vh;
+    font-size: 2vh;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 10px;
+}
+
+.Bottone{
+    color: white;
+    border-color: white;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#ArticoloStampato{
+    display: block;
+}
+
+.DivArticoli{
+    background-color: rgb(70, 70, 70);
+    width: 30vw;
+    padding-bottom: 2vh;
+    border-radius: 80px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.DivH2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+}
+
+.DivP{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
